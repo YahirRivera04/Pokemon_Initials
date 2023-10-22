@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Pokemon;
+    src: url(./fonts/Pokemon\ Solid.ttf);
+}
+
+body {
+    background-color: #1f1f1f;
+    margin: 10px 0px 10px 0px;
+}
+
+.Texto{
+    background-color: #1f1f1f;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.navBar{
+    background: #1f1f1f;;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto 0px auto;
+    border-bottom: 0.1px solid #2d2d2d;
+}
+
+.navBar a{
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+}
+
+.navBar ul{
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+.navBar li:hover {
+    background-color: #343434;
+    border: 1px solid #343434;
+    border-radius: 10%;
+}
+
+.title-page img{
+    height: 100px;
+    width: 100px;
+}
