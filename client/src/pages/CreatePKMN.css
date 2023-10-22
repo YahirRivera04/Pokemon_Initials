@@ -1,0 +1,73 @@
+.data p{
+    color: aliceblue;
+}
+
+.datadiv{
+    margin-top: 20px;
+}
+
+.create{
+    justify-content:center;
+    display:flex;
+}
+
+.form{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form p{
+    background-color: #4A403C;
+}
+
+.form button{
+    margin-top: 20px;
+}
+
+.newpokemon{
+    
+    margin: 50px;
+    text-align: left;
+    color: aliceblue;
+}
+
+
+.updateform{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #4A403C;
+}
+
+.updateform button{
+    margin-top: 20px;
+}
+
+.updateform p{
+    font-style: italic;
+    background-color: #4A403C;
+}
+
+.deleteform{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #4A403C;
+}
+
+.deleteform p{
+    background-color: #4A403C;
+}
+
+.deleteform button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.newpokemon img{
+    max-width: 30%;
+    max-height: 30%;
+}

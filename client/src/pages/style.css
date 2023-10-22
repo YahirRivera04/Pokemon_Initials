@@ -1,0 +1,42 @@
+@font-face {
+    font-family: open-Sans;
+    src: url(../fonts/OpenSans.ttf);
+}
+
+.pokedex{
+    background-color: #1f1f1f; 
+    text-align: center;  
+}
+
+.pokedex h1{
+    color: aliceblue;
+}
+
+.pokemons{
+    background-color: aliceblue;
+    margin: 0px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.useDataCont{
+    text-align: center;
+}    
+
+
+p{
+    background-color: aliceblue;
+    font-family: open-Sans;
+    font-size: 20px;
+}
+  
+img{
+    flex: 33.33%;
+    max-width: 100%;
+    height: auto;
+}
+  
+
